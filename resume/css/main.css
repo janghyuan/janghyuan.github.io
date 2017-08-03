@@ -1,0 +1,178 @@
+html, body {
+	background: #dbdbdb;
+	font-family: "Droid Sans", sans-serif;
+}
+a {
+	color: #999;
+	text-decoration: none;
+	border-bottom: 1px solid #aaa;
+	padding-bottom: 2px;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+#paper {
+	background: #e8e7e4;
+	width: 900px;
+	margin: 120px auto;
+	padding: 100px 50px;
+	color: #999;
+	font-size: 14px;
+	box-shadow: 0 0 20px rgba(0,0,0,.2);
+	border-radius: 3px;
+}
+p {
+	line-height: 1.3rem;
+}
+h2.title {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+h2.title > i {
+	padding-right: 10px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+section {
+	margin-bottom: 70px;
+}
+figure#photo {
+	width: 100px;
+	margin: 0;
+	float: left;
+	padding: 10px 37px;
+}
+figure#photo figcaption {
+	text-align: center;
+	margin-top: 10px;
+}
+figure#photo img {
+	width: 100px;
+	border-radius: 99999px;
+}
+
+#personal-info p {
+	padding-left: 174px;
+}
+figcaption.mapmarker {
+	font-size: 12px;
+	color: #bbb;
+}
+
+
+
+section h3 {
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #999;
+}
+section ul li {
+	padding: 10px 0;
+	color: #bbb;
+}
+
+div#showbox {
+	height: 370px;
+	overflow: hidden;
+	position: relative;
+}
+div#showbox img {
+	max-width: 100%;
+	display: block;
+}
+img#indexpage {
+	width: 600px;
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1000;
+}
+img#memberpage {
+	width: 400px;
+	position: absolute;
+	left: 0px;
+	bottom: -20px;
+}
+img#topicpage {
+	width: 400px;
+	position: absolute;
+	right: 0px;
+	bottom: -20px;
+}
+
+div#showbox-info {
+	padding: 15px;
+}
+
+section#portfolio > h3 {
+	text-align: center;
+}
+
+hr {
+	border: none;
+	border-bottom: 1px solid #ddd;
+	margin: 80px 0;
+	padding: 0;
+}
+
+img#book {
+	width: 384px;
+}
+img#duanwu {
+	width: 300px;
+}
+img#recruit {
+	width: 300px;
+}
+
+div#show-left {
+	float: left;
+	width: 450px;
+	text-align: center;
+}
+div#show-right {
+	width: 400px;
+	float: right;
+	text-align: center;
+}
+#show-left img, #show-right img {
+	padding: 10px;
+	background: white;
+	border: 1px solid #ccc;
+}
+
+ul#skillbar {
+	list-style: none;
+	padding: 0;
+}
+ul#skillbar li {
+	padding: 10px 15px;
+	margin-bottom: 15px;
+	background: #aaa;
+	color: white;
+	font-size: 12px;
+	position: relative;
+}
+span.bar {
+	position: absolute;
+	height: 34px;
+	background: #666;
+	right: 0;
+	top: 0;
+}

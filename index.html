@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>man janghyuan</title>
+	<style type="text/css" media="screen">
+		html, body {
+			background: rgba(50, 50, 50, 1);
+			color: white;
+			height: 100%;
+			margin: 0;
+		}
+		#window {
+			width: 500px;
+			height: 200px;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			margin: 0 auto;
+			box-shadow: 0 -20px 38px rgba(0,0,0,.3);
+		}
+		#titlebar {
+			height: 30px;
+			background: rgba(243,243,243,1);
+			background: linear-gradient( to bottom, rgba(215,215,215,1), rgba(170,170,170,1) );
+			border-radius: 5px 5px 0 0;
+			padding-left: 4px;
+		}
+		#titlebar span {
+			width: 15px;
+			height: 15px;
+			background: black;
+			border-radius: 50%;
+			display: inline-block;
+			margin: 7px 2px;
+		}
+		#console {
+			padding: 0 10px;
+			font-family: monospace;
+		}
+		h1#prompt {
+			font-size: 18px;
+			font-weight: 600;
+		}
+		p#info {
+			font-size: 18px;
+			font-weight: 500;
+			margin: 0;
+			line-height: 24px;
+			color: limegreen;
+		}
+		p#info a {
+			color: white;
+			text-decoration: none;
+		}
+		p#info a:hover {
+			text-decoration: underline;
+		}
+		span#close {
+			background: rgba(231, 69, 70, 1);
+			border: 1px solid rgba(213, 46, 42, 1);
+		}
+		span#minimize {
+			background: rgba(245, 178, 39, 1);
+			border: 1px solid rgba(213, 141, 38, 1);	
+		}
+		span#maximize {
+			background: rgba(85, 199, 49, 1);
+			border: 1px solid rgba(71, 162, 33,1 );
+		}
+		#arrow {
+			color: darkorange;
+		}
+		#pwd {
+			color: gold;
+		}
+	</style>
+</head>
+<body>
+		<div id="window">
+			<div id="titlebar">
+				<span id="close"></span>
+				<span id="minimize"></span>
+				<span id="maximize"></span>
+			</div>
+			<div id="console" class="name">
+				<h1 id="prompt">
+					<span id="arrow">&#x279C;</span> 
+					<span id="pwd">janghyuan</span>
+					man `whoami`
+				</h1>
+				<p id="info">
+					I am a Ruby on Rails developer.<br>
+					You can find me at <a href="http://github.com/janghyuan">Github</a> <a href="http://fanfou.com/janghyuan">Fanfou</a> ...
+				</p>
+			</div>
+		</div>
+</body>
+</html>
