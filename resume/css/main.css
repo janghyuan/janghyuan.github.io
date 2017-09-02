@@ -76,12 +76,14 @@ figcaption.mapmarker {
 section h3 {
 	font-size: 14px;
 	font-weight: normal;
-	text-transform: uppercase;
 	color: #999;
 }
 section ul li {
 	padding: 10px 0;
 	color: #bbb;
+}
+section ul li p {
+	color: #aaa;
 }
 
 div#showbox {
@@ -162,7 +164,7 @@ ul#skillbar {
 	padding: 0;
 }
 ul#skillbar li {
-	padding: 10px 15px;
+	padding: 8px 15px;
 	margin-bottom: 15px;
 	background: #aaa;
 	color: white;
